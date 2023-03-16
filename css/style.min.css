@@ -3602,6 +3602,9 @@ max-width: 396px;
 }
 
 @media (max-width: 768px) {
+
+  
+
   .slide__content {
     
     min-height: 1400px;
@@ -3621,4 +3624,12 @@ max-width: 396px;
     border-radius: 15px;
   }
   
+}
+
+@media (max-width: 400px){
+  .swiper-nav-btn{
+   flex-direction: column;
+   width: calc(100% - 40px) ;
+    
+  }
 }
